@@ -1,0 +1,8 @@
+let arr=[]
+arr.push(`item added at the end`)
+console.log(arr)
+arr.unshift(`value at beginning`)
+arr.push(`value at the end`)
+arr.shift()
+arr.pop()
+console.log(arr)
