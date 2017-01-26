@@ -1,0 +1,16 @@
+const a=process.argv
+let arr=Number(a[2])+Number(a[2])
+if(arr<=10) {
+console.log(`value is less than 10`)
+}
+else {
+if(arr<=100) {
+console.log(`value is less than 100 but greater than 10`)
+}
+else{
+if (arr<=1000) {
+console.log(`value is less than 1000 but greater than 100`)
+}
+else{
+console.log(`value is grater than 1000`)
+}}}
