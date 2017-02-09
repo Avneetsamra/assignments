@@ -15,6 +15,7 @@ function f1()             //parent function
  var a =2;                 //local variable
  
    return function()     //closure function
+   
    {
    
     return a;
